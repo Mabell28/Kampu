@@ -1,0 +1,472 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url(../Fuentes/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: OpenSans-Light;
+	src: url(../Fuentes/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(../Fuentes/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: OpenSans-Semibold;
+	src: url(../Fuentes/OpenSans-Semibold.ttf);
+}
+
+.navbar-brand{
+	width: 50%;
+	margin-left: 3% 0%;
+
+	img{
+		width: 170%;
+		margin-top: -10%;
+	}
+}
+
+.lista-header{
+	padding: 0;
+	width: 100%;
+	margin-left: 50%;
+	margin-top: -4%;
+}
+.navbar{
+	background-color: white;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	font-family: "Lato-Bold";
+}
+
+.icon-phone{
+	width: 61%;
+	margin-left: 124%;
+	margin-top: 5%;
+	img{
+		width: 100%;
+	}
+}
+
+.texto-phone{
+	padding: 0;
+	margin-top: -4%;
+	h4{  
+	font-size: 24px;
+	padding-left: 20%;
+}
+}
+
+.link{
+	color:  rgb(242, 101, 34);
+	margin: 0;
+	font-size: 17px;
+	letter-spacing: 4px;
+}
+.fb{
+	img{
+		margin-left: 71%;
+		width: 38%;
+	}
+}
+
+.yt{
+	img{
+		margin-top: 1%;
+		margin-left: -76%;
+		width: 38%;
+	}
+}
+.navbar-nav{
+	padding: 0% 10%;
+}
+
+li{
+
+	h5{
+		font-family: "OpenSans-Light";
+		color: #085b84;
+		padding: 2%;
+	}
+}
+.mgt-neg-2{
+	margin-top: -2%;
+}
+li{
+	list-style: none;
+ a{
+			font-size: 21px;
+}
+}
+
+a{
+	img{
+		width: 95%;
+	}
+}
+.mgl-neg-15{
+	margin-left: -15%;
+}
+.fz-14{
+	font-size: 14px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: gray;
+	font-size: 15px;
+}
+
+
+.navbar-default .navbar-brand{
+	color: white;
+	font-size: 28px;
+}
+
+.imagen-carrusel{
+	img{
+		width: 100%;
+	}
+}
+
+.flecha-izquierda, .flecha-derecha{
+	margin-top: 113%;
+  position: absolute;
+  img{
+  	width: 72%;
+  }
+}
+.flecha-derecha{
+	margin-left: -35%;
+}
+section#formulario{
+	width: 20%;
+	height: 348px;
+	margin-top: 9%;
+	margin-left: 72%;
+	background-color: rgba(255, 92, 7, 0.6);
+	position: absolute;
+	z-index: 5;
+
+	 
+}
+
+p#titulo{
+	font-size: 24px;
+	margin: 2% 6%;
+	color: white;
+	font-family: "OpenSans-Semibold";
+}
+
+input[type="text"]{
+	width: 87%;
+	height: 34px;
+	margin-left: 6%;
+	margin-top: 3%;
+	padding: 5%;
+	font-size: 12px;
+	outline: none;
+	background-color: white;
+	border: 0px;
+	border-radius: 4px;
+	font-family: "OpenSans-Regular";
+}
+input[type="mensaje"]{
+	height: 91px;
+	width: 87%;
+	margin-left: 6%;
+	margin-top: 3%;
+	padding: 4%;
+	font-size: 12px;
+	outline: none;
+	background-color: white;
+	border: 0px;
+	border-radius: 6px;
+	font-family: "OpenSans-Regular";
+	padding-bottom: 21%;
+}
+
+input[type="submit"]{
+	margin: 4% 11%;
+	width: 78%;
+	outline: none;
+	border: 0px;
+	height: 39px;
+	background-color: #5063CC;
+	font-size: 12px;
+	font-family: "OpenSans-Bold";
+	border-radius: 6px;
+	color: white;
+}
+.texto-carrusel{
+	font-size: 49px;
+	margin-bottom: 3%;
+	margin-left: -12%;
+	width: 68%;
+	font-family: "Lato-Bold";
+}
+
+.subtitulo-carrusel {
+	margin-bottom: 22%;
+	margin-left: -12%;
+	width: 29%;
+	font-size: 26px;
+	font-family: "Lato-Bold";
+}
+
+.caja{
+	border-style: solid;
+  border-width: thin;
+  color: #ecf0f1;
+  border-radius: 8px;
+}
+
+.imagen-caja{
+	width: 100%;
+	img{
+		width: 100%;
+	}
+}
+
+.titulo-caja{
+	padding: 2%;
+	font-family: "OpenSans-Bold";
+}
+
+.texto-caja{
+	font-family: "OpenSans-Light";
+	color: black;
+}
+
+.texto-grid-1{
+	padding: 0% 12%;
+  margin-bottom: 9%;
+}
+.texto-grid-2{
+	  padding: 0% 10%;
+}
+.texto-grid-3{
+	padding: 0% 17%;
+  margin-bottom: 15%;
+}
+.texto-grid-4{
+	padding: 2% 5%;
+  margin-bottom: 5%;
+}
+.texto-grid-5{
+  padding: 0% 18%;
+  margin-bottom: 16%;	
+}
+.texto-grid-6{
+	padding: 0% 5%;
+}
+.container-rs{
+	margin: 0;
+	padding: 0;
+}
+.res-ser{
+	background-color: #FF6514;
+	width: 100%;
+	padding: 2%;
+}
+
+.rs-row{
+	padding: 2%;
+	margin: 0% 10%;
+}
+
+.rs-img-cami{
+	width: 140%;
+	margin-left: -50%;
+	img{
+		width: 100%;
+	}
+}
+.rs-img{
+	width: 80%;
+
+	img{
+		width: 100%;
+	}
+}
+
+.rs-texto{
+	margin: 0% 4%;
+	font-family: "OpenSans-Light";
+}
+
+.rs-titulo{
+	font-family: "OpenSans-Bold";
+	padding: 2% 0%;
+}
+
+.texto-res, .texto-ser {
+	font-size: 16px;
+}
+.lider-mapa{
+	width: 100%;
+}
+
+.contacto{
+	background-color: rgb(8, 91, 132);
+	padding: 2% 6%;
+}
+
+.titulo-contacto{
+	font-family: "OpenSans-Bold";
+	padding: 1% 5%;
+	font-size: 20px;
+}
+
+.visita{
+	width: 100%;
+	font-family: "OpenSans-Light";
+}
+.visita-img{
+	width: 30%;
+
+	img{
+		width: 100%;
+	}
+}
+.icon-map-1{
+	width: 55%;
+}
+.icon-map-2{
+	width: 35%;
+	}
+.visita-texto-1{
+	margin-left: -9%;
+	width: 74%;
+}
+.visita-texto-2{
+	margin-left: -10%;
+}
+.mgl-neg-27{
+	margin-left: -27%;
+}
+.logo-kampu{
+	width: 53%;
+	margin-left: 28%;
+	margin-top: 8%;
+
+	img{
+		width: 100%;
+	}
+}
+.footer{
+	background-color: #34495e;
+}
+
+.texto-footer{
+	padding: 2% 11%;
+	margin: 0;
+	font-family: "OpenSans-Light";
+}
+
+.nav{
+	margin-left: 50%;
+}	
+.pdt-carrusel{
+	padding-top: 6%;
+}
+
+/* INICIO RESPONSIVE */
+@media (max-width: $screen-phone){
+.pdt-carrusel{
+	padding-top: 14%;
+}
+.flecha-izquierda, .flecha-derecha{
+	visibility: hidden;
+}
+.rs-img{
+	width: 44%;
+	margin: 0 auto;
+}
+.rs-texto{
+	margin: 0% -11%;
+	text-align: center;
+}
+
+.texto-footer{
+	padding: 6% 0%;
+	margin: 0;
+	font-size: 11px;
+}
+.icon-facebook{
+	width: 70%;
+	margin: 10% 3%;
+}
+
+.navbar-brand{
+	margin-top: -3%;
+}
+
+.navbar-nav{
+	padding: 1%;
+}
+
+.texto-carrusel{
+	font-size: 29px;
+	margin-left: 0%;
+	width: 100%;
+}
+
+.subtitulo-carrusel{
+	margin-bottom: 10%;
+	margin-left: 0%;
+	width: 100%;
+	font-size: 17px;
+}
+
+.imagen-carrusel{
+	img{
+		width: 100%;
+		height: 214px;
+	}
+}
+
+.rs-img-cami{
+	width: 80%;
+  margin-left: 12%;
+}
+.titulo-contacto{
+	font-size: 15px;
+}
+.mg-3-0{
+	margin: 3% 0%;
+}
+li{
+	img{
+		width: 59%;
+	}
+}
+.visita-texto-2{
+	margin-left: -8%;
+}
+.navbar-brand img {
+  width: 110%;
+  margin-top: -5%;
+}
+.icon-map-2{
+	width: 61%;
+}
+.visita-texto-1{
+	width: 83%;
+}
+.visita-texto-2{
+	width: 89%;
+}
+}
+
+/* FIN RESPONSIVE */
