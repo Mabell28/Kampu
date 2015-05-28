@@ -5971,6 +5971,9 @@ input[type="submit"] {
 
 /* INICIO RESPONSIVE */
 @media (max-width: 480px) {
+  .imagen-carrusel img {
+    height: auto; }
+
   .pdt-carrusel {
     padding-top: 14%; }
 
@@ -6011,10 +6014,6 @@ input[type="submit"] {
     width: 100%;
     font-size: 17px; }
 
-  .imagen-carrusel img {
-    width: 100%;
-    height: 214px; }
-
   .rs-img-cami {
     width: 80%;
     margin-left: 12%; }
@@ -6029,7 +6028,8 @@ input[type="submit"] {
     width: 59%; }
 
   .visita-texto-2 {
-    margin-left: -8%; }
+    margin-left: -8%;
+    width: 89%; }
 
   .navbar-brand img {
     width: 110%;
@@ -6041,8 +6041,17 @@ input[type="submit"] {
   .visita-texto-1 {
     width: 83%; }
 
-  .visita-texto-2 {
-    width: 89%; } }
+  .bottom {
+    padding-bottom: 5%; }
+
+  .mgt-neg-7 {
+    margin-top: -7%; }
+
+  .carousel-indicators {
+    visibility: hidden; }
+
+  .texto-res {
+    font-size: 14px; } }
 /* FIN RESPONSIVE */
 
 /*# sourceMappingURL=main.css.map */
