@@ -5768,7 +5768,7 @@ section#formulario {
   height: 348px;
   margin-top: 9%;
   margin-left: 72%;
-  background-color: rgba(255, 92, 7, 0.6);
+  background-color: rgba(255, 101, 7, 0.6);
   position: absolute;
   z-index: 5; }
 
@@ -5811,7 +5811,7 @@ input[type="submit"] {
   outline: none;
   border: 0px;
   height: 39px;
-  background-color: #5063CC;
+  background-color: #085B84;
   font-size: 12px;
   font-family: "Lato-Bold";
   border-radius: 6px;
@@ -5864,6 +5864,9 @@ input[type="submit"] {
 
 .texto-res, .texto-ser {
   font-size: 16px; }
+
+.fila-2 {
+  margin-top: -4%; }
 
 .res-ser {
   background-color: #FF6514;
@@ -6062,6 +6065,9 @@ input[type="submit"] {
     .img-youtube img {
       border-radius: 50%;
       width: 100%; }
+
+  .mgl-neg-6 {
+    margin-left: -6%; }
 
   .hidden-sm-red {
     display: block; } }
