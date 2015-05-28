@@ -5,24 +5,20 @@
 
 
 @font-face {
-	font-family: OpenSans-Bold;
+	font-family: Lato-Bold;
 	src: url(../Fuentes/OpenSans-Bold.ttf);
 }
 
 @font-face {
-	font-family: OpenSans-Light;
+	font-family: Lato-Light;
 	src: url(../Fuentes/OpenSans-Light.ttf);
 }
 
 @font-face {
-	font-family: OpenSans-Regular;
+	font-family: Lato-Regular;
 	src: url(../Fuentes/OpenSans-Regular.ttf);
 }
 
-@font-face {
-	font-family: OpenSans-Semibold;
-	src: url(../Fuentes/OpenSans-Semibold.ttf);
-}
 
 .navbar-brand{
 	width: 50%;
@@ -40,6 +36,7 @@
 	margin-left: 50%;
 	margin-top: -4%;
 }
+
 .navbar{
 	background-color: white;
 	position: fixed;
@@ -47,7 +44,6 @@
 	width: 100%;
 	margin: 0;
 	border: 0;
-	font-family: "Lato-Bold";
 }
 
 .icon-phone{
@@ -95,7 +91,7 @@
 li{
 
 	h5{
-		font-family: Open OpenSans-Regular;
+		font-family: "Lato-Light";
 		color: #085b84;
 		padding: 2%;
 	}
@@ -165,7 +161,7 @@ p#titulo{
 	font-size: 24px;
 	margin: 2% 6%;
 	color: white;
-	font-family: Open OpenSans-Regular;
+	font-family: "Lato-Bold";
 }
 
 input[type="text"]{
@@ -179,7 +175,7 @@ input[type="text"]{
 	background-color: white;
 	border: 0px;
 	border-radius: 4px;
-	font-family: "OpenSans-Regular";
+	font-family: "Lato-Regular";
 }
 input[type="mensaje"]{
 	height: 91px;
@@ -192,7 +188,7 @@ input[type="mensaje"]{
 	background-color: white;
 	border: 0px;
 	border-radius: 6px;
-	font-family: "OpenSans-Regular";
+	font-family: "Lato-Regular";
 	padding-bottom: 21%;
 }
 
@@ -204,25 +200,11 @@ input[type="submit"]{
 	height: 39px;
 	background-color: #5063CC;
 	font-size: 12px;
-	font-family: "OpenSans-Bold";
+	font-family: "Lato-Bold";
 	border-radius: 6px;
 	color: white;
 }
-.texto-carrusel{
-	font-size: 49px;
-	margin-bottom: 3%;
-	margin-left: -12%;
-	width: 68%;
-	font-family: "Lato-Bold";
-}
 
-.subtitulo-carrusel {
-	margin-bottom: 22%;
-	margin-left: -12%;
-	width: 29%;
-	font-size: 26px;
-	font-family: "Lato-Bold";
-}
 
 .caja{
 	border-style: solid;
@@ -240,11 +222,11 @@ input[type="submit"]{
 
 .titulo-caja{
 	padding: 2%;
-	font-family: "OpenSans-Bold";
+	font-family: "Lato-Bold";
 }
 
 .texto-caja{
-	font-family: Open OpenSans-Light;
+	font-family: "Lato-Light";
 	color: black;
 }
 
@@ -302,11 +284,11 @@ input[type="submit"]{
 
 .rs-texto{
 	margin: 0% 4%;
-	font-family: "OpenSans-Light";
+	font-family: "Lato-Light";
 }
 
 .rs-titulo{
-	font-family: "OpenSans-Bold";
+	font-family: "Lato-Bold";
 	padding: 2% 0%;
 }
 
@@ -323,14 +305,14 @@ input[type="submit"]{
 }
 
 .titulo-contacto{
-	font-family: "OpenSans-Bold";
+	font-family: "Lato-Bold";
 	padding: 1% 5%;
 	font-size: 20px;
 }
 
 .visita{
 	width: 100%;
-	font-family: "OpenSans-Light";
+	font-family: "Lato-Light";
 }
 .visita-img{
 	width: 30%;
@@ -371,7 +353,7 @@ input[type="submit"]{
 .texto-footer{
 	padding: 2% 11%;
 	margin: 0;
-	font-family: "OpenSans-Light";
+	font-family: "Lato-Light";
 }
 
 .nav{
