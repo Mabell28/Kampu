@@ -12,8 +12,9 @@
 				$(".ventana").slideDown("slow");
 			}
 			function closeVentana(){
-				$(".cerrar").slideUp("fast");
+				$(".ventana").slideUp("slow");
 			}
+
 		</script>
 	</head>
 	<body>
@@ -62,11 +63,12 @@
 					</div>
 				</div> 
 			</nav><!--FIN DE MENU-->
-			<section class="hidden-sm-btn btn-info-up">
+			<section class="btn-info-up">
 				<div class="fondo-btn">
 					<h5 class="texto-info"><a href="javascript:openVentana();">Información</a></h5>
 				</div>
-				<section class="ventana hidden-xs" id="formulario"><!-- INICIO FORMULARIO -->
+				<section class="ventana" id="formulario"><!-- INICIO FORMULARIO -->
+					<p class="cerrado"><a class="cerrar" href="javascript:closeVentana();">[X]</a></p>
 					<p id="titulo">Pedir información</p>
 					<form action="enviado.php" method="post" name="contac" id="contac">
 						<input type="text" id="nombre" name="nombre" placeholder="Nombre">

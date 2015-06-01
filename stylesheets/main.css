@@ -5772,7 +5772,7 @@ a img {
 section#formulario {
   width: 20%;
   height: 348px;
-  margin-top: 9%;
+  margin-top: 8%;
   margin-left: 72%;
   background-color: rgba(255, 101, 20, 0.9);
   position: absolute;
@@ -5780,7 +5780,8 @@ section#formulario {
 
 p#titulo {
   font-size: 24px;
-  margin: 2% 6%;
+  margin-top: -1%;
+  margin-left: 6%;
   color: white;
   font-family: "OpenSans-Bold"; }
 
@@ -5823,6 +5824,9 @@ input[type="submit"] {
   border-radius: 6px;
   color: white; }
 
+.cerrar {
+  display: none; }
+
 .caja {
   border-style: solid;
   border-width: thin;
@@ -5836,7 +5840,8 @@ input[type="submit"] {
 
 .titulo-caja {
   padding: 2%;
-  font-family: "OpenSans-Bold"; }
+  font-family: "OpenSans-Bold";
+  color: gray; }
 
 .texto-caja {
   font-family: "OpenSans-Light";
@@ -5969,8 +5974,8 @@ input[type="submit"] {
 .hidden-sm-red {
   display: none; }
 
-.hidden-sn-btn {
-  display: none; }
+.ventana {
+  display: block; }
 
 /* INICIO RESPONSIVE */
 @media (max-width: 480px) {
@@ -6093,7 +6098,7 @@ input[type="submit"] {
   .fondo-btn {
     background-color: #ff6514;
     width: 23%;
-    margin-left: 74%;
+    margin-left: 69%;
     border-radius: 7px;
     text-align: center; }
 
@@ -6105,7 +6110,25 @@ input[type="submit"] {
       color: white; }
 
   .ventana {
-    display: block; } }
+    display: none; }
+
+  p#titulo {
+    margin-top: -7%; }
+
+  section#formulario {
+    width: 73%;
+    height: 355px;
+    margin-left: 18%; }
+
+  .cerrar {
+    display: block; }
+    .cerrar a {
+      color: white; }
+
+  .cerrado {
+    margin-top: 2%;
+    margin-left: 88%;
+    font-size: 18px; } }
 /* FIN RESPONSIVE */
 
 /*# sourceMappingURL=main.css.map */
