@@ -7,6 +7,14 @@
 		<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">
+			function openVentana(){
+				$(".ventana").slideDown("slow");
+			}
+			function closeVentana(){
+				$(".cerrar").slideUp("fast");
+			}
+		</script>
 	</head>
 	<body>
 		<div class="container-fluid p-0" id="HOME">
@@ -54,15 +62,20 @@
 					</div>
 				</div> 
 			</nav><!--FIN DE MENU-->
-			<section class="hidden-xs" id="formulario"><!-- INICIO FORMULARIO -->
-				<p id="titulo">Pedir información</p>
-				<form action="enviado.php" method="post" name="contac" id="contac">
-					<input type="text" id="nombre" name="nombre" placeholder="Nombre">
-					<input type="text" id="telefono" name="telefono" placeholder="Teléfono">
-					<input type="text" id="mail" name="mail" placeholder="Email">
-					<input type="mensaje" id="mensaje" name="mensaje" placeholder="Quiero solicitar presupuesto para...">
-					<input type="submit" value="SOLICITAR PRESUPUESTO GRATIS">
-				</form>
+			<section class="hidden-sm-btn btn-info-up">
+				<div class="fondo-btn">
+					<h5 class="texto-info"><a href="javascript:openVentana();">Información</a></h5>
+				</div>
+				<section class="ventana hidden-xs" id="formulario"><!-- INICIO FORMULARIO -->
+					<p id="titulo">Pedir información</p>
+					<form action="enviado.php" method="post" name="contac" id="contac">
+						<input type="text" id="nombre" name="nombre" placeholder="Nombre">
+						<input type="text" id="telefono" name="telefono" placeholder="Teléfono">
+						<input type="text" id="mail" name="mail" placeholder="Email">
+						<input type="mensaje" id="mensaje" name="mensaje" placeholder="Quiero solicitar presupuesto para...">
+						<input type="submit" value="SOLICITAR PRESUPUESTO GRATIS">
+					</form>
+				</section>
 			</section><!-- FIN FORMULARIO -->
 			<section><!-- INICIO CARRUSEL -->
 				<div id="myCarousel" class="carousel slide pdt-carrusel" data-ride="carousel">
@@ -290,7 +303,6 @@
 								</a>
 							</div>
 						</div>
-
 					</div>
 				</div><!-- FIN FOOTER -->
 			</footer>
