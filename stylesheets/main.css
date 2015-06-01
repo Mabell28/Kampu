@@ -5660,13 +5660,13 @@ button.close {
   padding: 0; }
 
 @font-face {
-  font-family: Lato-Bold;
+  font-family: OpenSans-Bold;
   src: url(../fuentes/Lato-Bold.ttf); }
 @font-face {
-  font-family: Lato-Light;
+  font-family: OpenSans-Light;
   src: url(../fuentes/Lato-Light.ttf); }
 @font-face {
-  font-family: Lato-Regular;
+  font-family: OpenSans-Regular;
   src: url(../fuentes/Lato-Regular.ttf); }
 .navbar-brand {
   width: 50%;
@@ -5716,13 +5716,13 @@ button.close {
 .yt img {
   margin-top: 1%;
   margin-left: -76%;
-  width: 38%; }
+  width: 42%; }
 
 .navbar-nav {
   padding: 0% 10%; }
 
 li h5 {
-  font-family: "Lato-Light";
+  font-family: "OpenSans-Light";
   color: #085b84;
   padding: 2%; }
 
@@ -5742,6 +5742,12 @@ a img {
 
 .fz-14 {
   font-size: 14px; }
+
+.llamanos {
+  padding: 1%;
+  margin-top: -1%; }
+  .llamanos img {
+    width: 70%; }
 
 .navbar-default .navbar-nav > li > a {
   color: gray;
@@ -5768,7 +5774,7 @@ section#formulario {
   height: 348px;
   margin-top: 9%;
   margin-left: 72%;
-  background-color: rgba(255, 101, 7, 0.6);
+  background-color: rgba(255, 101, 20, 0.9);
   position: absolute;
   z-index: 5; }
 
@@ -5776,7 +5782,7 @@ p#titulo {
   font-size: 24px;
   margin: 2% 6%;
   color: white;
-  font-family: "Lato-Bold"; }
+  font-family: "OpenSans-Bold"; }
 
 input[type="text"] {
   width: 87%;
@@ -5789,7 +5795,7 @@ input[type="text"] {
   background-color: white;
   border: 0px;
   border-radius: 4px;
-  font-family: "Lato-Regular"; }
+  font-family: "OpenSans-Regular"; }
 
 input[type="mensaje"] {
   height: 91px;
@@ -5802,7 +5808,7 @@ input[type="mensaje"] {
   background-color: white;
   border: 0px;
   border-radius: 6px;
-  font-family: "Lato-Regular";
+  font-family: "OpenSans-Regular";
   padding-bottom: 21%; }
 
 input[type="submit"] {
@@ -5813,7 +5819,7 @@ input[type="submit"] {
   height: 39px;
   background-color: #085B84;
   font-size: 12px;
-  font-family: "Lato-Bold";
+  font-family: "OpenSans-Bold";
   border-radius: 6px;
   color: white; }
 
@@ -5830,10 +5836,10 @@ input[type="submit"] {
 
 .titulo-caja {
   padding: 2%;
-  font-family: "Lato-Bold"; }
+  font-family: "OpenSans-Bold"; }
 
 .texto-caja {
-  font-family: 'Lato-Light';
+  font-family: "OpenSans-Light";
   color: black; }
 
 .texto-grid-1 {
@@ -5890,10 +5896,10 @@ input[type="submit"] {
 
 .rs-texto {
   margin: 0% 4%;
-  font-family: "Lato-Light"; }
+  font-family: "OpenSans-Light"; }
 
 .rs-titulo {
-  font-family: "Lato-Bold";
+  font-family: "OpenSans-Bold";
   padding: 2% 0%; }
 
 .texto-res, .texto-ser {
@@ -5907,13 +5913,13 @@ input[type="submit"] {
   padding: 2% 6%; }
 
 .titulo-contacto {
-  font-family: "Lato-Bold";
+  font-family: "OpenSans-Bold";
   padding: 1% 5%;
   font-size: 20px; }
 
 .visita {
   width: 100%;
-  font-family: "Lato-Light"; }
+  font-family: "OpenSans-Light"; }
 
 .visita-img {
   width: 30%; }
@@ -5949,13 +5955,13 @@ input[type="submit"] {
 .texto-footer {
   padding: 2% 11%;
   margin: 0;
-  font-family: "Lato-Light"; }
+  font-family: "OpenSans-Light"; }
 
 .nav {
   margin-left: 50%; }
 
 .pdt-carrusel {
-  padding-top: 6%; }
+  padding-top: 4%; }
 
 .hidden-sm {
   display: none; }
@@ -5978,7 +5984,7 @@ input[type="submit"] {
     height: auto; }
 
   .pdt-carrusel {
-    padding-top: 14%; }
+    padding-top: 13%; }
 
   .flecha-izquierda, .flecha-derecha {
     visibility: hidden; }
@@ -6067,7 +6073,7 @@ input[type="submit"] {
     margin-top: 41%; }
     .img-youtube img {
       border-radius: 50%;
-      width: 100%; }
+      width: 105%; }
 
   .mgl-neg-6 {
     margin-left: -6%; }
@@ -6080,21 +6086,23 @@ input[type="submit"] {
 
   .btn-info-up {
     width: 100%;
-    margin-top: 21%;
+    margin-top: 32%;
     position: absolute;
     z-index: 8; }
 
   .fondo-btn {
-    background-color: orange;
-    width: 30%;
-    margin-left: 65%;
+    background-color: #ff6514;
+    width: 23%;
+    margin-left: 74%;
     border-radius: 7px;
     text-align: center; }
 
   .texto-info {
     padding: 6%;
-    font-size: 14px;
+    font-size: 12px;
     color: white; }
+    .texto-info a {
+      color: white; }
 
   .ventana {
     display: block; } }
