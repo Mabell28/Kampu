@@ -5,17 +5,17 @@
 
 
 @font-face {
-	font-family: Lato-Bold;
+	font-family: OpenSans-Bold;
 	src: url(../fuentes/Lato-Bold.ttf);
 }
 
 @font-face {
-	font-family: Lato-Light;
+	font-family: OpenSans-Light;
 	src: url(../fuentes/Lato-Light.ttf);
 }
 
 @font-face {
-	font-family: Lato-Regular;
+	font-family: OpenSans-Regular;
 	src: url(../fuentes/Lato-Regular.ttf);
 }
 
@@ -91,7 +91,7 @@
 li{
 
 	h5{
-		font-family: "Lato-Light";
+		font-family: "OpenSans-Light";
 		color: #085b84;
 		padding: 2%;
 	}
@@ -161,7 +161,7 @@ p#titulo{
 	font-size: 24px;
 	margin: 2% 6%;
 	color: white;
-	font-family: "Lato-Bold";
+	font-family: "OpenSans-Bold";
 }
 
 input[type="text"]{
@@ -175,7 +175,7 @@ input[type="text"]{
 	background-color: white;
 	border: 0px;
 	border-radius: 4px;
-	font-family: "Lato-Regular";
+	font-family: "OpenSans-Regular";
 }
 input[type="mensaje"]{
 	height: 91px;
@@ -188,7 +188,7 @@ input[type="mensaje"]{
 	background-color: white;
 	border: 0px;
 	border-radius: 6px;
-	font-family: "Lato-Regular";
+	font-family: "OpenSans-Regular";
 	padding-bottom: 21%;
 }
 
@@ -200,7 +200,7 @@ input[type="submit"]{
 	height: 39px;
 	background-color: #085B84;
 	font-size: 12px;
-	font-family: "Lato-Bold";
+	font-family: "OpenSans-Bold";
 	border-radius: 6px;
 	color: white;
 }
@@ -222,11 +222,11 @@ input[type="submit"]{
 
 .titulo-caja{
 	padding: 2%;
-	font-family: "Lato-Bold";
+	font-family: "OpenSans-Bold";
 }
 
 .texto-caja{
-	font-family: 'Lato-Light';
+	font-family: "OpenSans-Light";
 	color: black;
 }
 
@@ -291,11 +291,11 @@ input[type="submit"]{
 
 .rs-texto{
 	margin: 0% 4%;
-	font-family: "Lato-Light";
+	font-family: "OpenSans-Light";
 }
 
 .rs-titulo{
-	font-family: "Lato-Bold";
+	font-family: "OpenSans-Bold";
 	padding: 2% 0%;
 }
 
@@ -312,14 +312,14 @@ input[type="submit"]{
 }
 
 .titulo-contacto{
-	font-family: "Lato-Bold";
+	font-family: "OpenSans-Bold";
 	padding: 1% 5%;
 	font-size: 20px;
 }
 
 .visita{
 	width: 100%;
-	font-family: "Lato-Light";
+	font-family: "OpenSans-Light";
 }
 .visita-img{
 	width: 30%;
@@ -360,7 +360,7 @@ input[type="submit"]{
 .texto-footer{
 	padding: 2% 11%;
 	margin: 0;
-	font-family: "Lato-Light";
+	font-family: "OpenSans-Light";
 }
 
 .nav{
