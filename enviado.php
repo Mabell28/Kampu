@@ -11,14 +11,14 @@
 
 $cabeceras ="From: $mail\n"
 ."Reply-To: $mail\n";
-$asunto ="Mensaje de la página web";
-$mail ="mabellhuayanaytaype@gmail.com";
+$asunto ="Mensaje de landing Kampu";
+$mail ="lider@lider.com.pe";
 $contenido ="$nombre ha enviado un mensaje\n"
 ."\n";
 
 
 
-if(@mail($mail, $asunto, $contenido, $cabeceras)){
+if(@mail($mail, $asunto, $contenido, $cabeceras, $mensaje)){
 	die("Gracias, su mensaje ha sido enviado");
 }
 ?>

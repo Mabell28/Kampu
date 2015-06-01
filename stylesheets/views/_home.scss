@@ -6,17 +6,17 @@
 
 @font-face {
 	font-family: Lato-Bold;
-	src: url(../Fuentes/Lato-Bold.ttf);
+	src: url(../fuentes/Lato-Bold.ttf);
 }
 
 @font-face {
 	font-family: Lato-Light;
-	src: url(../Fuentes/Lato-Light.ttf);
+	src: url(../fuentes/Lato-Light.ttf);
 }
 
 @font-face {
 	font-family: Lato-Regular;
-	src: url(../Fuentes/Lato-Regular.ttf);
+	src: url(../fuentes/Lato-Regular.ttf);
 }
 
 
@@ -226,7 +226,7 @@ input[type="submit"]{
 }
 
 .texto-caja{
-	font-family: "Lato-Light";
+	font-family: 'Lato-Light';
 	color: black;
 }
 
@@ -375,6 +375,9 @@ input[type="submit"]{
 .hidden-sm-red{
 	display: none;
 }
+.hidden-sn-btn{
+	display: none;
+}
 
 /* INICIO RESPONSIVE */
 @media (max-width: $screen-phone){
@@ -501,6 +504,32 @@ li{
 .hidden-sm-red{
 	display: block;
 }
+.hidden-sm-btn{
+	display: block;
+}
+
+.btn-info-up{
+	width: 100%;
+	margin-top: 21%;
+	position: absolute;
+	z-index: 8;
+}
+.fondo-btn{
+	 background-color: orange;
+  width: 30%;
+  margin-left: 65%;
+  border-radius: 7px;
+  text-align: center;
+}
+.texto-info{
+	padding: 6%;
+  font-size: 14px;
+  color: white;
+}
+.ventana{
+	display: block;
+}
+
 }
 
 /* FIN RESPONSIVE */
