@@ -6128,7 +6128,17 @@ input[type="submit"] {
   .cerrado {
     margin-top: 2%;
     margin-left: 88%;
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .fondo-formulario {
+    display: none;
+    background-color: rgba(189, 195, 199, 0.7);
+    width: 100%;
+    height: 669px;
+    margin-top: -44%;
+    padding-top: 36%;
+    position: fixed;
+    z-index: 9; } }
 /* FIN RESPONSIVE */
 
 /*# sourceMappingURL=main.css.map */

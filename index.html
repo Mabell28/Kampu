@@ -67,18 +67,20 @@
 				<div class="fondo-btn">
 					<h5 class="texto-info"><a href="javascript:openVentana();">Información</a></h5>
 				</div>
-				<section class="ventana" id="formulario"><!-- INICIO FORMULARIO -->
-					<p class="cerrado"><a class="cerrar" href="javascript:closeVentana();">[X]</a></p>
-					<p id="titulo">Pedir información</p>
-					<form action="enviado.php" method="post" name="contac" id="contac">
-						<input type="text" id="nombre" name="nombre" placeholder="Nombre">
-						<input type="text" id="telefono" name="telefono" placeholder="Teléfono">
-						<input type="text" id="mail" name="mail" placeholder="Email">
-						<input type="mensaje" id="mensaje" name="mensaje" placeholder="Quiero solicitar presupuesto para...">
-						<input type="submit" value="SOLICITAR PRESUPUESTO GRATIS">
-					</form>
-				</section>
-			</section><!-- FIN FORMULARIO -->
+				<div class="ventana fondo-formulario">
+					<section id="formulario"><!-- INICIO FORMULARIO -->
+						<p class="cerrado"><a class="cerrar" href="javascript:closeVentana();">[X]</a></p>
+						<p id="titulo">Pedir información</p>
+						<form action="enviado.php" method="post" name="contac" id="contac">
+							<input type="text" id="nombre" name="nombre" placeholder="Nombre">
+							<input type="text" id="telefono" name="telefono" placeholder="Teléfono">
+							<input type="text" id="mail" name="mail" placeholder="Email">
+							<input type="mensaje" id="mensaje" name="mensaje" placeholder="Quiero solicitar presupuesto para...">
+							<input type="submit" value="SOLICITAR PRESUPUESTO GRATIS">
+						</form>
+					</section>
+				</div>
+				</section><!-- FIN FORMULARIO -->
 			<section><!-- INICIO CARRUSEL -->
 				<div id="myCarousel" class="carousel slide pdt-carrusel" data-ride="carousel">
 				  <!-- Indicators -->
